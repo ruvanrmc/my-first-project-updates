@@ -1,0 +1,41 @@
+body {
+  background-color: rgb(25, 25, 25);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.rock-icon, .paper-icon, .scissors-icon {
+  height: 40px;
+  background-color: rgb(25, 25, 25);
+  border-width: 1px;
+
+}
+.rock-button, .paper-button, .scissors-button {
+  height: 110px;
+  border-radius: 60px;
+  border-style: solid;
+  background-color: rgb(25, 25, 25);
+  border-color: white;
+  padding: 10px 33px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.game-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+.js-icons {
+  height: 50px;
+}
+.result-row {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+.reset-button {
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+</style>
